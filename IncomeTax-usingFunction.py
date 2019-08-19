@@ -47,3 +47,7 @@ elif category == 3 :
 elif category == 4 :
     a, b, c, d, e = 11950, 45500, 117450, 190200, 372950
     calcIncTax(a, b, c, d, e)
+    
+# other categories are invalid
+else:
+    print("Sorry! Wrong Input!")
