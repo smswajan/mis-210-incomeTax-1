@@ -30,13 +30,9 @@ def calcIncTax(a, b, c, d, e):
 
 #Tax Calculation for Single
 if(category == 1):
-    a = 8350
-    b = 33950
-    c = 82250
-    d = 171550
-    e = 372950
+    a, b, c, d, e = 8350, 33950, 82250, 171550, 372950
     calcIncTax(a, b, c, d, e)
-
+    
 #Tax Calculation for Married Filing Jointly       
 elif category == 2 :
     a, b, c, d, e = 16700, 67900, 137050, 208850, 372950
@@ -51,6 +47,3 @@ elif category == 3 :
 elif category == 4 :
     a, b, c, d, e = 11950, 45500, 117450, 190200, 372950
     calcIncTax(a, b, c, d, e)
-
-
-
