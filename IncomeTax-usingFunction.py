@@ -36,7 +36,7 @@ if(category == 1):
 #Tax Calculation for Married Filing Jointly       
 elif category == 2 :
     a, b, c, d, e = 16700, 67900, 137050, 208850, 372950
-    tax = calcIncTax(a, b, c, d, e)
+    calcIncTax(a, b, c, d, e)
 
 #Tax Calculation for Married Filing Separately
 elif category == 3 :
